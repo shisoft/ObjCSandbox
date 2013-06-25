@@ -14,6 +14,8 @@
 
 @implementation SSBViewController
 
+@synthesize statusText;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
