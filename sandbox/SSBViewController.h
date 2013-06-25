@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SSBViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *statusText;
-- (IBAction)buttonPressed:(UIButton *)sender;
-
+@property (strong, nonatomic) IBOutlet UITextField *nameTextField;
+@property (strong, nonatomic) IBOutlet UITextField *numberTextField;
+- (IBAction)textFieldDoneEditing:(id)sender;
+- (IBAction)backgroundTap:(id)sender;
+- (IBAction)sliderChanged:(id)sender;
 @end

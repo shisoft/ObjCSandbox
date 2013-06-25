@@ -14,7 +14,8 @@
 
 @implementation SSBViewController
 
-@synthesize statusText;
+@synthesize nameTextField;
+@synthesize numberTextField;
 
 - (void)viewDidLoad
 {
@@ -28,8 +29,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)buttonPressed:(UIButton *)sender {
-    NSString *title = [sender titleForState:UIControlStateNormal];
-    statusText.text = [NSString stringWithFormat:@"%@ button pressed.",title];
+- (IBAction)textFieldDoneEditing:(id)sender {
+    [sender resignFirstResponder];
 }
+
+- (IBAction)backgroundTap:(id)sender{
+    [nameTextField resignFirstResponder];
+    [numberTextField resignFirstResponder];
+}
+
+- (IBAction)sliderChanged:(id)sender {
+    NSLog([NSString stringWithFormat:@"%f",((UISlider *)sender).value]);
+}
+
 @end
