@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SSBViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *statusText;
 - (IBAction)buttonPressed:(UIButton *)sender;
 
 @end

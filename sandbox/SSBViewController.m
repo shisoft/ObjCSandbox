@@ -27,5 +27,7 @@
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
+    NSString *title = [sender titleForState:UIControlStateNormal];
+    statusText.text = [NSString stringWithFormat:@"%@ button pressed.",title];
 }
 @end
