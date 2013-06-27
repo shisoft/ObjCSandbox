@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E93C91177A21EF00EC5F72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E93C90177A21EF00EC5F72 /* UIKit.framework */; };
+		F5E93C93177A21EF00EC5F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E93C92177A21EF00EC5F72 /* Foundation.framework */; };
+		F5E93C95177A21EF00EC5F72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E93C94177A21EF00EC5F72 /* CoreGraphics.framework */; };
+		F5E93C9B177A21EF00EC5F72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5E93C99177A21EF00EC5F72 /* InfoPlist.strings */; };
+		F5E93C9D177A21EF00EC5F72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E93C9C177A21EF00EC5F72 /* main.m */; };
+		F5E93CA1177A21EF00EC5F72 /* SARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E93CA0177A21EF00EC5F72 /* SARAppDelegate.m */; };
+		F5E93CA3177A21EF00EC5F72 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E93CA2177A21EF00EC5F72 /* Default.png */; };
+		F5E93CA5177A21EF00EC5F72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E93CA4177A21EF00EC5F72 /* Default@2x.png */; };
+		F5E93CA7177A21EF00EC5F72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E93CA6177A21EF00EC5F72 /* Default-568h@2x.png */; };
+		F5E93CAA177A21EF00EC5F72 /* SARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E93CA9177A21EF00EC5F72 /* SARViewController.m */; };
+		F5E93CAD177A21EF00EC5F72 /* SARViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E93CAB177A21EF00EC5F72 /* SARViewController_iPhone.xib */; };
+		F5E93CB0177A21EF00EC5F72 /* SARViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E93CAE177A21EF00EC5F72 /* SARViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5E93C8D177A21EF00EC5F72 /* autoresize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoresize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E93C90177A21EF00EC5F72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5E93C92177A21EF00EC5F72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5E93C94177A21EF00EC5F72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5E93C98177A21EF00EC5F72 /* autoresize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "autoresize-Info.plist"; sourceTree = "<group>"; };
+		F5E93C9A177A21EF00EC5F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5E93C9C177A21EF00EC5F72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5E93C9E177A21EF00EC5F72 /* autoresize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "autoresize-Prefix.pch"; sourceTree = "<group>"; };
+		F5E93C9F177A21EF00EC5F72 /* SARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARAppDelegate.h; sourceTree = "<group>"; };
+		F5E93CA0177A21EF00EC5F72 /* SARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARAppDelegate.m; sourceTree = "<group>"; };
+		F5E93CA2177A21EF00EC5F72 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5E93CA4177A21EF00EC5F72 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F5E93CA6177A21EF00EC5F72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5E93CA8177A21EF00EC5F72 /* SARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SARViewController.h; sourceTree = "<group>"; };
+		F5E93CA9177A21EF00EC5F72 /* SARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SARViewController.m; sourceTree = "<group>"; };
+		F5E93CAC177A21EF00EC5F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SARViewController_iPhone.xib; sourceTree = "<group>"; };
+		F5E93CAF177A21EF00EC5F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SARViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E93C8A177A21EF00EC5F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E93C91177A21EF00EC5F72 /* UIKit.framework in Frameworks */,
+				F5E93C93177A21EF00EC5F72 /* Foundation.framework in Frameworks */,
+				F5E93C95177A21EF00EC5F72 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E93C84177A21EE00EC5F72 = {
+			isa = PBXGroup;
+			children = (
+				F5E93C96177A21EF00EC5F72 /* autoresize */,
+				F5E93C8F177A21EF00EC5F72 /* Frameworks */,
+				F5E93C8E177A21EF00EC5F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E93C8E177A21EF00EC5F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E93C8D177A21EF00EC5F72 /* autoresize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E93C8F177A21EF00EC5F72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E93C90177A21EF00EC5F72 /* UIKit.framework */,
+				F5E93C92177A21EF00EC5F72 /* Foundation.framework */,
+				F5E93C94177A21EF00EC5F72 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5E93C96177A21EF00EC5F72 /* autoresize */ = {
+			isa = PBXGroup;
+			children = (
+				F5E93C9F177A21EF00EC5F72 /* SARAppDelegate.h */,
+				F5E93CA0177A21EF00EC5F72 /* SARAppDelegate.m */,
+				F5E93CA8177A21EF00EC5F72 /* SARViewController.h */,
+				F5E93CA9177A21EF00EC5F72 /* SARViewController.m */,
+				F5E93CAB177A21EF00EC5F72 /* SARViewController_iPhone.xib */,
+				F5E93CAE177A21EF00EC5F72 /* SARViewController_iPad.xib */,
+				F5E93C97177A21EF00EC5F72 /* Supporting Files */,
+			);
+			path = autoresize;
+			sourceTree = "<group>";
+		};
+		F5E93C97177A21EF00EC5F72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E93C98177A21EF00EC5F72 /* autoresize-Info.plist */,
+				F5E93C99177A21EF00EC5F72 /* InfoPlist.strings */,
+				F5E93C9C177A21EF00EC5F72 /* main.m */,
+				F5E93C9E177A21EF00EC5F72 /* autoresize-Prefix.pch */,
+				F5E93CA2177A21EF00EC5F72 /* Default.png */,
+				F5E93CA4177A21EF00EC5F72 /* Default@2x.png */,
+				F5E93CA6177A21EF00EC5F72 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E93C8C177A21EF00EC5F72 /* autoresize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E93CB3177A21EF00EC5F72 /* Build configuration list for PBXNativeTarget "autoresize" */;
+			buildPhases = (
+				F5E93C89177A21EF00EC5F72 /* Sources */,
+				F5E93C8A177A21EF00EC5F72 /* Frameworks */,
+				F5E93C8B177A21EF00EC5F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autoresize;
+			productName = autoresize;
+			productReference = F5E93C8D177A21EF00EC5F72 /* autoresize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E93C85177A21EE00EC5F72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SAR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Shisoft Corporation";
+			};
+			buildConfigurationList = F5E93C88177A21EE00EC5F72 /* Build configuration list for PBXProject "autoresize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5E93C84177A21EE00EC5F72;
+			productRefGroup = F5E93C8E177A21EF00EC5F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E93C8C177A21EF00EC5F72 /* autoresize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E93C8B177A21EF00EC5F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E93C9B177A21EF00EC5F72 /* InfoPlist.strings in Resources */,
+				F5E93CA3177A21EF00EC5F72 /* Default.png in Resources */,
+				F5E93CA5177A21EF00EC5F72 /* Default@2x.png in Resources */,
+				F5E93CA7177A21EF00EC5F72 /* Default-568h@2x.png in Resources */,
+				F5E93CAD177A21EF00EC5F72 /* SARViewController_iPhone.xib in Resources */,
+				F5E93CB0177A21EF00EC5F72 /* SARViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E93C89177A21EF00EC5F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E93C9D177A21EF00EC5F72 /* main.m in Sources */,
+				F5E93CA1177A21EF00EC5F72 /* SARAppDelegate.m in Sources */,
+				F5E93CAA177A21EF00EC5F72 /* SARViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5E93C99177A21EF00EC5F72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E93C9A177A21EF00EC5F72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5E93CAB177A21EF00EC5F72 /* SARViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E93CAC177A21EF00EC5F72 /* en */,
+			);
+			name = SARViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F5E93CAE177A21EF00EC5F72 /* SARViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E93CAF177A21EF00EC5F72 /* en */,
+			);
+			name = SARViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E93CB1177A21EF00EC5F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E93CB2177A21EF00EC5F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E93CB4177A21EF00EC5F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "autoresize/autoresize-Prefix.pch";
+				INFOPLIST_FILE = "autoresize/autoresize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5E93CB5177A21EF00EC5F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "autoresize/autoresize-Prefix.pch";
+				INFOPLIST_FILE = "autoresize/autoresize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E93C88177A21EE00EC5F72 /* Build configuration list for PBXProject "autoresize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E93CB1177A21EF00EC5F72 /* Debug */,
+				F5E93CB2177A21EF00EC5F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E93CB3177A21EF00EC5F72 /* Build configuration list for PBXNativeTarget "autoresize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E93CB4177A21EF00EC5F72 /* Debug */,
+				F5E93CB5177A21EF00EC5F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E93C85177A21EE00EC5F72 /* Project object */;
+}
